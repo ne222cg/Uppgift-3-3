@@ -89,6 +89,7 @@ table {
     padding:0 10px; 
     margin-top:20px; 
     border-right:dashed 1px;
+    border-color:rgb(192,192,192);
 }
 
 #subcontent {
@@ -103,18 +104,25 @@ table {
     padding:10px;
 }
 
-#maincontent h1{
+#maincontent h1 {
     font-family:"Times new roman";
     color:rgb(121,112,101);
     font-size:2em;
     margin-bottom:15px;
 }
 
-#subcontent h1{
+#subcontent h1 {
     font-family:"Times new roman";
     color:rgb(121,112,101);
     font-size:1em;
     margin:15px 0;
+}
+
+h2 {
+    font-family:"Times new roman";
+    font-size:0.9em;
+    color:rgb(121,112,101);
+    margin-top:20px;
 }
 
 img {
@@ -164,6 +172,14 @@ a {
 
 #menu a:hover {
     background-color:rgb(156,144,131);
+}
+
+#subcontent li a {
+    display:inline;
+    font-family:"Verdana";
+    font-size:0.8em;
+    line-height:170%;
+    color:rgb(121,112,101);
 }
 
 /*
