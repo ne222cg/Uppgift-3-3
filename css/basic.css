@@ -102,6 +102,10 @@ table {
 #bottomcontent {
     clear:both; 
     padding:10px;
+    font-family:"Verdana";
+    font-size:0.7em;
+    font-style: italic;
+    color:rgb(121,112,101);
 }
 
 #maincontent h1 {
