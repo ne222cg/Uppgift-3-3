@@ -133,6 +133,11 @@ a {
     color:rgb(121,112,101); 
 }
 
+#menu a:hover {
+    background-color:rgb(156,144,131);
+     
+}
+
 /*
 	<div id="container">
 		<div id="topbar">	
