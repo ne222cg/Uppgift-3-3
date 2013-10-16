@@ -103,11 +103,18 @@ table {
     padding:10px;
 }
 
-h1{
+#maincontent h1{
     font-family:"Times new roman";
     color:rgb(121,112,101);
     font-size:2em;
     margin-bottom:15px;
+}
+
+#subcontent h1{
+    font-family:"Times new roman";
+    color:rgb(121,112,101);
+    font-size:1em;
+    margin:15px 0;
 }
 
 img {
@@ -115,10 +122,17 @@ img {
     margin-right:5px;
 }
 
-p {
+#maincontent p {
     font-family:"Verdana";
     font-size:0.8em;
     line-height:160%;
+    color:rgb(121,112,101);
+}
+
+#subcontent p {
+    font-family:"Verdana";
+    font-size:0.55em;
+    line-height:260%;
     color:rgb(121,112,101);
 }
 
