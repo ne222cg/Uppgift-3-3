@@ -49,24 +49,84 @@ table {
 
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
 
-#topbar, #menu, #content, #subcontent, #bottomcontent {overflow:auto;}
+#topbar, #menu, #content, #subcontent, #bottomcontent {
+    overflow:auto;
+}
 
-#container {max-width: 600px; margin: 0 auto;}
-#topbar {width:598px; padding:5px 2px 0 0; background-color:rgb(81,71,60); color:rgb(234,231,209); text-align:right; font-size:0.8em; font-style: italic;}
+#container {
+    max-width: 600px; 
+    margin: 10px auto;
+}
 
+#topbar {
+    width:598px;
+    height:215px;
+    padding:5px 2px 0 0; 
+    
+    background-color:rgb(81,71,60); 
+    background-image:url(pics/coffey.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 20px;
+    
+    text-align:right; 
+    font-size:0.8em; 
+    font-style: italic;
+    color:rgb(234,231,209);
+}
 
-#topbar:after {width:600px; content: url(pics/coffey.jpg);}
-#menu {padding:5px 0 0 10px; background-color:rgb(81,71,60);}
+#menu {
+    padding:5px 0 0 10px; 
+    background-color:rgb(81,71,60);
+}
 
-#content {background-color:rgb(234,231,209);}
-#maincontent {float:left; width:390px; padding:0 10px; margin-top:20px; border-right:dashed 1px;}
-#subcontent {float:left; width:169px; padding:0 10px; margin-top:20px;}
-#bottomcontent {clear:both; padding:10px;}
+#content {
+    background-color:rgb(234,231,209);
+}
 
-p {font-family:"verdana", "Times new roman";}
+#maincontent {
+    float:left; 
+    width:350px; 
+    padding:0 10px; 
+    margin-top:20px; 
+    border-right:dashed 1px;
+}
 
-a {display:none;}
-#menu li a {display:block; width:100px; float:left; padding:10px 0; background-color:rgb(121,112,101); text-decoration:none; text-align:center; text-transform:capitalize; color:rgb(234,231,209); border-left:solid 1px; border-color:rgb(81,71,60);}
+#subcontent {
+    float:left; 
+    width:209px; 
+    padding:0 10px; 
+    margin-top:20px;
+}
+
+#bottomcontent {
+    clear:both; 
+    padding:10px;
+}
+
+p {
+    font-family:"verdana", "Times new roman";
+}
+
+a {
+    display:none;
+}
+
+#menu li a {
+    display:block; 
+    float:left; 
+    padding:10px 20px; 
+    background-color:rgb(121,112,101); 
+    
+    text-decoration:none; 
+    text-align:center; 
+    text-transform:capitalize;
+    font-family:"verdana";
+    font-size:0.8em;
+    color:rgb(234,231,209); 
+    
+    border-left:solid 1px; 
+    border-color:rgb(81,71,60);
+}
 
 /*
 	<div id="container">
